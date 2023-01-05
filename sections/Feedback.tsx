@@ -1,15 +1,19 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "styles";
-import { fadeIn, staggerContainer, zoomIn } from "utils";
+import { fadeIn, zoomIn } from "utils";
 import plantPic from "public/planet-09.png";
 import stampPic from "public/stamp.png";
 
 const Feedback = () => (
   <section className={`${styles.paddings}`}>
     <motion.div
-      variants={staggerContainer}
+      variants={{
+        hidden: {},
+        show: {},
+      }}
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
