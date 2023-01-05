@@ -72,19 +72,18 @@ export const insights: newFeature[] = [
 
 export const socials: social[] = [
   {
-    name: "twitter",
-    url: "/twitter.svg",
-  },
-  {
     name: "linkedin",
     url: "/linkedin.svg",
+    link: "https://www.linkedin.com/in/jahanzaib-tayyab-0b752913a",
   },
   {
     name: "instagram",
     url: "/instagram.svg",
+    link: "https://www.instagram.com/jahanzaib_tayyab/",
   },
   {
     name: "facebook",
     url: "/facebook.svg",
+    link: "https://www.facebook.com/jahanzaib.tayyab.5",
   },
 ];

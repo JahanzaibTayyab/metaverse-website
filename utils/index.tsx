@@ -1,3 +1,4 @@
+import { Variants } from "framer-motion";
 export const navVariants = {
   hidden: {
     opacity: 0,
@@ -41,10 +42,7 @@ export const slideIn = (
   },
 });
 
-export const staggerContainer = (
-  staggerChildren: unknown,
-  delayChildren: unknown
-) => ({
+export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
   hidden: {},
   show: {
     transition: {

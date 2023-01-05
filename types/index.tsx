@@ -13,4 +13,5 @@ export type newFeature = {
 export type social = {
   name: string;
   url: string;
+  link: string;
 };
