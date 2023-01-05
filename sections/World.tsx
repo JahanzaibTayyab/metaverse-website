@@ -35,8 +35,8 @@ const World = () => (
           src="/map.png"
           alt="map"
           className="w-full h-full object-cover"
-          width={3510}
-          height={1578}
+          width={2000}
+          height={1000}
         />
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <Image

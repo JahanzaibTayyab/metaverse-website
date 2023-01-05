@@ -34,7 +34,7 @@ const ExploreCard: NextPage<Props> = ({
       src={imgUrl}
       alt={title}
       className="absolute w-full h-full object-cover rounded-[24px]"
-      width={3000}
+      width={2500}
       height={1200}
     />
     {active !== id ? (

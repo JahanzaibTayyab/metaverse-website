@@ -21,7 +21,7 @@ const InsightCard: NextPage<Props> = ({ imgUrl, title, subtitle, index }) => (
       alt={title}
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
       width={500}
-      height={500}
+      height={300}
     />
     <div className="w-full flex justify-between items-center">
       <div className="flex-1 md:ml-[62px] flex flex-col max-w-[650px]">

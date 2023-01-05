@@ -26,8 +26,8 @@ const GetStarted = () => (
           src="/get-started.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
-          width={1403}
-          height={1535}
+          width={800}
+          height={800}
         />
       </motion.div>
       <motion.div

@@ -39,8 +39,8 @@ const WhatsNew = () => (
           src="/whats-new.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
-          width={1403}
-          height={1403}
+          width={800}
+          height={800}
         />
       </motion.div>
     </motion.div>
