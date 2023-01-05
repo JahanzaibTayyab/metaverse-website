@@ -18,7 +18,7 @@ const InsightCard: NextPage<Props> = ({ imgUrl, title, subtitle, index }) => (
   >
     <img
       src={imgUrl}
-      alt="planet-01"
+      alt={title}
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
     />
     <div className="w-full flex justify-between items-center">

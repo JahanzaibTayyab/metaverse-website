@@ -37,13 +37,31 @@ const World = () => (
       >
         <Image src={mapPic} alt="map" className="w-full h-full object-cover" />
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <Image src={peoplePic} alt="people" className="w-full h-full" />
+          <Image
+            src={peoplePic}
+            alt="people"
+            className="w-full h-full"
+            width={50}
+            height={50}
+          />
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <Image src={peoplePic2} alt="people" className="w-full h-full" />
+          <Image
+            src={peoplePic2}
+            alt="people"
+            className="w-full h-full"
+            width={50}
+            height={50}
+          />
         </div>
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
-          <Image src={peoplePic3} alt="people" className="w-full h-full" />
+          <Image
+            src={peoplePic3}
+            alt="people"
+            className="w-full h-full"
+            width={50}
+            height={50}
+          />
         </div>
       </motion.div>
     </motion.div>

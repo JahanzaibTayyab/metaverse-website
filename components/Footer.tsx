@@ -1,9 +1,10 @@
 "use client";
-
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { socials } from "../constants";
 import styles from "../styles";
 import { footerVariants } from "utils";
+import headSet from "public/headset.svg";
 
 const Footer = () => (
   <motion.footer
@@ -22,10 +23,12 @@ const Footer = () => (
           type="button"
           className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
         >
-          <img
-            src="/headset.svg"
+          <Image
+            src={headSet}
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
+            width={24}
+            height={24}
           />
           <span className="font-normal text-[16px] text-white">
             Enter Metaverse
@@ -48,10 +51,12 @@ const Footer = () => (
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <Image
                   src={social.url}
                   alt={social.name}
                   className="w-[24px] h-[24px] object-contain cursor-pointer"
+                  width={24}
+                  height={24}
                 />
               </a>
             ))}
