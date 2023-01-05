@@ -6,7 +6,6 @@ import styles from "styles";
 import { newFeatures } from "../constants";
 import { NewFeatures, TitleText, TypingText } from "components";
 import { planetVariants, fadeIn } from "utils";
-import whatsNewPic from "public/whats-new.png";
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -32,15 +31,16 @@ const WhatsNew = () => (
           ))}
         </div>
       </motion.div>
-
       <motion.div
         variants={planetVariants("right")}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <Image
-          src={whatsNewPic}
+          src="/whats-new.png"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
+          width={1403}
+          height={1403}
         />
       </motion.div>
     </motion.div>

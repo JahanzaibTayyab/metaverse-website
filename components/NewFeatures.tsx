@@ -1,5 +1,6 @@
 import styles from "styles";
 import { NextPage } from "next";
+import Image from "next/image";
 type Props = {
   imgUrl: string;
   title: string;
@@ -10,7 +11,13 @@ const NewFeatures: NextPage<Props> = ({ imgUrl, title, subtitle }) => (
     <div
       className={`${styles.flexCenter} w-[70px] h-[70px] rounded-[24px] bg-[#323F5D]`}
     >
-      <img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain" />
+      <Image
+        src={imgUrl}
+        alt="icon"
+        className="w-1/2 h-1/2 object-contain"
+        width={100}
+        height={100}
+      />
     </div>
     <h1 className="mt-[26px] font-bold text-[24px] leading-[30.24px] text-white">
       Title {title}

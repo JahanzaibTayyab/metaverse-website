@@ -4,10 +4,6 @@ import { motion } from "framer-motion";
 import styles from "styles";
 import { TitleText, TypingText } from "components";
 import { fadeIn } from "utils";
-import mapPic from "public/map.png";
-import peoplePic from "public/people-01.png";
-import peoplePic2 from "public/people-02.png";
-import peoplePic3 from "public/people-03.png";
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -35,10 +31,16 @@ const World = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <Image src={mapPic} alt="map" className="w-full h-full object-cover" />
+        <Image
+          src="/map.png"
+          alt="map"
+          className="w-full h-full object-cover"
+          width={3510}
+          height={1578}
+        />
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <Image
-            src={peoplePic}
+            src="/people-01.png"
             alt="people"
             className="w-full h-full"
             width={50}
@@ -47,7 +49,7 @@ const World = () => (
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <Image
-            src={peoplePic2}
+            src="/people-02.png"
             alt="people"
             className="w-full h-full"
             width={50}
@@ -56,7 +58,7 @@ const World = () => (
         </div>
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <Image
-            src={peoplePic3}
+            src="/people-03.png"
             alt="people"
             className="w-full h-full"
             width={50}
