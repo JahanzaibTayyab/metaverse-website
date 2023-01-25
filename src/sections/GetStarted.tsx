@@ -3,8 +3,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "styles";
 import { startingFeatures } from "../constants";
-import { StartSteps, TitleText, TypingText } from "components";
-import { fadeIn, planetVariants } from "utils";
+import { StartSteps, TitleText, TypingText } from "src/components";
+import { fadeIn, planetVariants } from "src/utils";
 
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>

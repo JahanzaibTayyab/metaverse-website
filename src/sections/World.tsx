@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "styles";
-import { TitleText, TypingText } from "components";
-import { fadeIn } from "utils";
+import { TitleText, TypingText } from "src/components";
+import { fadeIn } from "src/utils";
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>

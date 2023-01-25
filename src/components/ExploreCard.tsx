@@ -3,7 +3,7 @@ import Image from "next/image";
 import { NextPage } from "next";
 import { motion } from "framer-motion";
 import styles from "styles";
-import { fadeIn } from "utils";
+import { fadeIn } from "src/utils";
 import headSet from "public/headset.svg";
 
 type Props = {

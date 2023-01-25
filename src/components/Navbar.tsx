@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import styles from "styles";
-import { navVariants } from "utils/index";
+import { navVariants } from "src/utils/index";
 
 const Navbar = () => (
   <motion.nav

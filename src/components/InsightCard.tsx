@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { NextPage } from "next";
 import { motion } from "framer-motion";
-import { fadeIn } from "utils";
+import { fadeIn } from "src/utils";
 import arrowSVG from "public/arrow.svg";
 
 type Props = {

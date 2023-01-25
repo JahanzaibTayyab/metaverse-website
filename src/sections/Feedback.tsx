@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "styles";
-import { fadeIn, zoomIn } from "utils";
+import { fadeIn, zoomIn } from "src/utils";
 
 const Feedback = () => (
   <section className={`${styles.paddings}`}>

@@ -4,8 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import styles from "styles";
 import { newFeatures } from "../constants";
-import { NewFeatures, TitleText, TypingText } from "components";
-import { planetVariants, fadeIn } from "utils";
+import { NewFeatures, TitleText, TypingText } from "src/components";
+import { planetVariants, fadeIn } from "src/utils";
 
 const WhatsNew = () => (
   <section className={`${styles.paddings} relative z-10`}>

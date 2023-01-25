@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { socials } from "../constants";
-import styles from "../styles";
-import { footerVariants } from "utils";
+import styles from "../../styles";
+import { footerVariants } from "src/utils";
 import headSet from "public/headset.svg";
 
 const Footer = () => (

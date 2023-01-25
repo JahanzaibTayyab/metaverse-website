@@ -1,4 +1,4 @@
-import { exploreWorld, newFeature, social } from "types";
+import { exploreWorld, newFeature, social } from "src/types";
 
 export const exploreWorlds: exploreWorld[] = [
   {

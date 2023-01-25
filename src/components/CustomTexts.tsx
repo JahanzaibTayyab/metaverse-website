@@ -2,7 +2,7 @@
 import type { ReactNode } from "react";
 import { NextPage } from "next";
 import { motion } from "framer-motion";
-import { textContainer, textVariant2 } from "utils";
+import { textContainer, textVariant2 } from "src/utils";
 
 type Props = {
   title: string | ReactNode;
